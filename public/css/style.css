@@ -1,0 +1,83 @@
+.container{
+    max-height: 768px;
+    margin: 10px auto;
+    overflow: auto;
+}
+.header{
+    height: 100px;
+}
+.main{
+    height: 568px;
+}
+.option{
+    background: url('/icon/menu.fw.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.option:hover{
+    background: url('/icon/menu2.fw.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sublist{
+    display: none;
+    z-index: 20;
+    position: absolute;
+    left:70%;
+    top:70%;
+}
+.subs{
+    background: url('/icon/menu3.fw.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.subs:hover{
+    background: url('/icon/menu4.fw.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contant{
+    height: 520px;
+}
+.up,.down{
+    background: rgb(184, 156, 64);
+    width: 30px;
+    height: 30px;
+}
+.up{
+    clip-path: polygon(100% 99%, 50% 85%, 0 100%, 50% 0);
+    /* margin: 0 auto 1rem auto; */
+}
+.down{
+    clip-path: polygon(100% 0, 50% 100%, 0 0, 50% 15%);
+    /* margin: 0 auto 1rem auto; */
+}
+.image_contant img{
+    display: none;
+}
+.ads{
+    height: 5%;
+}
+.mvims{
+    height: 60%;
+}
+.mv{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.mv img{
+    margin: auto;
+    width: 90%;
+    height: 300px;
+}
+.newslist{
+    height: 35%;
+}
+.footer{
+    height: 100px;
+}
+.footer-text{
+    line-height: 100px;
+}

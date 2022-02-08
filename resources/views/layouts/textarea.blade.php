@@ -1,0 +1,1 @@
+<textarea name="{{ $name }}" class="{{$class}}" >@isset($value) {{ $value }} @endisset</textarea>

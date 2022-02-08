@@ -1,0 +1,2 @@
+<div class="col-span-1 py-1 ml-0.5 flex items-center"><button class="{{ $action }} {{ $color }} 
+w-full h-8 rounded-md hover:{{ $hover }} shadow-sm" type="{{ $type }}" data-id="{{$id}}" @if(isset($admin)) data-admin="{{$admin}}" @if($admin=='admin') disabled @endif @endif>{{ $text }}</button></div>
